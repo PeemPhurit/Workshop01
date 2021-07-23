@@ -21,7 +21,7 @@ public class MyRange {
         if(isEndWithInclude()) {
             return this.input.charAt(3) - ASCII_VALUE;
         }
-        return 5;
+        return -1;
     }
 
     public boolean isEndWithInclude() {
